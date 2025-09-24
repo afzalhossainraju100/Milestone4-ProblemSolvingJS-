@@ -47,3 +47,29 @@ function noDuplicate(biryaniKhor){
 }
 const newList = noDuplicate(biryaniKhor);
 console.log(newList);
+
+//math solution
+const min = Math.min(45,888,3,44,55,66,333,3);
+console.log(min);
+const max = Math.max(45, 888, 3, 44, 55, 66, 333, 3);
+console.log(max);
+console.log(Math.PI);
+console.log(Math.abs(5-109));
+console.log(Math.round(2.25));
+console.log(Math.round(2.85));
+console.log(Math.round(2.25));
+console.log(Math.ceil(2.25));
+console.log(Math.random());
+console.log(Math.random()*10);
+//Date 
+const today = new Date();
+console.log(today);
+const date= new Date('2062-10-19');
+console.log(date);
+console.log(today.getMonth());
+console.log(today.getDay());
+const specificDate = new Date(2091,0,26);
+console.log(specificDate);
+specificDate.setMonth(10);
+console.log(specificDate);
+//swap
