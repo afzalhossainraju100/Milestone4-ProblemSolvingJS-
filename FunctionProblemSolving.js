@@ -48,6 +48,21 @@ function noDuplicate(biryaniKhor){
 const newList = noDuplicate(biryaniKhor);
 console.log(newList);
 
+//duplicaiton count 
+const numbers = [5, 6, 11, 12, 98, 5];
+const num=12;
+function countNumber(numbersArray,num){
+let count=0;
+for(let i = 0 ;i < numbers.length;i ++){
+    if(numbersArray[i]===num){
+        count++
+    }
+}
+return count;
+}
+const total= countNumber(numbers,num);
+console.log(total);
+
 //math solution
 const min = Math.min(45,888,3,44,55,66,333,3);
 console.log(min);
@@ -73,3 +88,18 @@ console.log(specificDate);
 specificDate.setMonth(10);
 console.log(specificDate);
 //swap
+let a = 5;
+let b = 7;
+console.log(a, b);
+const temp = a;
+a= b;
+b= temp;
+
+console.log(a, b);
+[a,b]=[b,a];
+console.log(a,b);
+//take random number from 10 to 20 
+const rendomnumber =Math.floor(Math.random()*10)+10;
+if(rendomnumber){
+    console.log(rendomnumber);
+}
