@@ -6,5 +6,5 @@ function totalFine(fare){
     const fine = fare +(fare*0.2)+30;
     return fine;
 };
-const number = '100';
+const number = 100;
 console.log(totalFine(number));
